@@ -116,7 +116,7 @@ class ParseUrl
     {
         try {
             $content = @file_get_contents($this->url);
-            $doc = new DOMDocument();
+            $doc = new \DOMDocument();
             @$doc->loadHTML($content);
         } catch (Exception $e){
             echo 'Не удалось загрузить контент';
