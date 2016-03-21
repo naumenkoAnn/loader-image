@@ -4,7 +4,10 @@ Upload images from a remote host
 
 Code Examples
 
-$loader = new LoaderImage();
+$loaders = new LoaderImage\Image();
 
-$loader->loadByUrl('http://example.com.ua/');
+//Directory for uploads
+#$loaders->setUploadsDir('uploads');
+
+$loaders->loadByUrl('http://example.com.ua/');
 
