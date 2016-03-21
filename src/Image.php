@@ -116,7 +116,8 @@ class Image
      */
     public function setUploadsDir($path = 'uploads')
     {
-        $this->uploads_dir = PROJECT_ROOT . trim($path, '/') . '/';
+        $vendor_path = substr(__FILE__, 0, strpos(__FILE__, 'vendor/'));
+        $this->uploads_dir = $vendor_path . trim($path, '/') . '/';
 
         if (!is_dir($this->uploads_dir)) {
             if (!@mkdir($this->uploads_dir, 0777)){
