@@ -1,10 +1,10 @@
 <?php
 
-require_once 'src/Loader/Image/CustomException.php';
-require_once 'src/Loader/Image/ParseUrl.php';
-require_once 'src/Loader/Image/LoaderImage.php';
+#require_once 'src/Loader/Image/CustomException.php';
+#require_once 'src/Loader/Image/ParseUrl.php';
+#require_once 'src/Loader/Image/LoaderImage.php';
 
-//require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 define('PROJECT_ROOT', __DIR__.'/');
 
