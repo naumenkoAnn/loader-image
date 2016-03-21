@@ -1,2 +1,9 @@
 # loader-image
-Загрузка изображений из удаленного хоста
+
+Загрузка изображений по определенной ссылке.
+
+Code Examples
+
+$Loaders = new LoaderImage();
+$Loaders->loadByUrl($url);
+
