@@ -5,5 +5,6 @@
 Code Examples
 
 $Loaders = new LoaderImage();
+
 $Loaders->loadByUrl($url);
 
