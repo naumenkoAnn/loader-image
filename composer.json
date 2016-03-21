@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Loader\\Image\\": "src/Loader/Image"
+            "LoaderImage\\": "src"
         }
     }
 }
