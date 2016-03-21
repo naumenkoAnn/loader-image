@@ -5,7 +5,7 @@ namespace LoaderImage;
  * @author Ann Shpakova <anet@lectra.me>
  * @version 1.0
  */
-class LoaderImage
+class Image
 {
     
     /**
