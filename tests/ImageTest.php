@@ -29,29 +29,6 @@ class ImageTest extends \PHPUnit_Framework_TestCase {
         
     }
 
-    /**
-     * @covers LoadImage::loadByUrl
-     * @todo   Implement testLoadByUrl().
-     */
-    public function testLoadByUrl()
-    {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
-    }
-
-    /**
-     * @covers LoadImage::loadByArray
-     * @todo   Implement testLoadByArray().
-     */
-    public function testLoadByArray() 
-    {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
-    }
 
 
     /**
