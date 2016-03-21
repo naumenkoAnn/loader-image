@@ -1,4 +1,5 @@
 <?php
+namespace LoaderImage;
 /**
  * Загрузка изображений из удаленной страницы
  * @author Ann Shpakova <anet@lectra.me>
