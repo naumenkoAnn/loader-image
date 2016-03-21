@@ -1,6 +1,7 @@
 {
     "name": "naumenko-ann/loader-image",
-    "description": "Загрузка изображений loaderImage.",
+    "description": "Upload images from a remote host",
+    "license": "MIT",
     "authors": [
         {
             "name": "anya",
