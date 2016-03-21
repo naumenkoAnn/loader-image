@@ -7,6 +7,7 @@
             "email": "anet@lectra.me"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.5.0"
     },
