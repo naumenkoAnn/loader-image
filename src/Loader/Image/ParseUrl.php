@@ -1,4 +1,5 @@
 <?php
+namespace LoaderImage;
 /**
  * Обработка web-страницы по ссылке
  * @author Ann Shpakova <anet@lectra.me>
