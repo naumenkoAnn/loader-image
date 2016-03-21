@@ -1,10 +1,10 @@
 # loader-image
 
-Загрузка изображений по определенной ссылке.
+Upload images from a remote host
 
 Code Examples
 
-$Loaders = new LoaderImage();
+$loader = new LoaderImage();
 
-$Loaders->loadByUrl($url);
+$loader->loadByUrl('http://example.com.ua/');
 
