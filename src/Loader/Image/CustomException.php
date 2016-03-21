@@ -1,4 +1,5 @@
 <?php
+namespace LoaderImage;
 
 class CustomException extends RuntimeException
 {
